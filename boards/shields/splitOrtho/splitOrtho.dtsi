@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "splitOrtho-layouts.dsti"
+#include "splitOrtho-layouts.dtsi"
 
 &splitOrtho_layout {
     transform = <&default_transform>;
