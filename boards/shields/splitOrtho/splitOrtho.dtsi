@@ -2,18 +2,18 @@
 #include "splitOrtho-layouts.dtsi"
 
 &splitOrtho_layout {
-    transform = <&default_transform>;
+    transform = <&keymap_transform_0>;
     kscan = <&kscan0>;
 };
 
 / {
     chosen {
-        zmk,matrix-transform = &default_transform;
+        zmk,matrix-transform = &keymap_transform_0;
         zmk,kscan = &kscan0;
         zmk,physical-layout = &splitOrtho_layout;
     };
     
-    default_transform: keymap_transform_0 {
+    keymap_transform_0: keymap_transform_0 {
         compatible = "zmk,matrix_transform";
         status= "okay";
         columns = <12>;
