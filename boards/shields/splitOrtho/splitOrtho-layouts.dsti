@@ -47,10 +47,10 @@
             , <&key_physical_attrs 100 150  752  283       0     0     0>
             , <&key_physical_attrs 100 100  850  312       0     0     0>
             , <&key_physical_attrs 100 100  950  312       0     0     0>
-    }
+    };
 
     splitOrtho_position_map {
         compatible = "zmk,physical-layout-position-map";
         complete;
-    }
+    };
 }
