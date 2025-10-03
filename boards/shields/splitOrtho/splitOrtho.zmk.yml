@@ -3,7 +3,6 @@ id: splitOrtho
 name: Split Ortholinear
 type: shield
 url: https://github.com/IllusiveBagel/SplitOrtho
-maintainer: IllusiveBagel
 requires: [pro_micro]
 features:
     - keys
