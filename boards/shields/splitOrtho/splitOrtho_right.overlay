@@ -9,3 +9,7 @@
 &default_transform {
     col-offset = <6>;
 };
+
+&keymap_transform_0 {
+    // Ensures DT_N_S_keymap_transform_0_P_map_LEN macro is generated for right side
+};
