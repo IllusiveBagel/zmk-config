@@ -1,17 +1,16 @@
-/*
- * Copyright (c) 2025 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
  #include <dt-bindings/zmk/matrix_transform.h>
  #inlude <layouts/footstan/corne/6column.dtsi>
 
  &foostan_corne_6col_layout {
     transform = <&default_transform>;
-    kscan = <&kscan0>;
  };
 
 / {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &foostan_corne_6col_layout;
+    };
+
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -31,6 +30,7 @@
             , <&pro_micro 10 (GPIO_ACTIVE | GPIO_PULL_DOWN)> // P0.09
             , <&pro_micro 16 (GPIO_ACTIVE | GPIO_PULL_DOWN)> // P0.10
             , <&pro_micro 14 (GPIO_ACTIVE | GPIO_PULL_DOWN)> // P1.11
+            ;
     };
 
     default_transform: keymap_transform0 {
