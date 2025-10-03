@@ -6,6 +6,6 @@
 
 #include "splitOrtho.dtsi"
 
-&keymap_transform_0 {
+&default_transform {
     col-offset = <6>;
 };
