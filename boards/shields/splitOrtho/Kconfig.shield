@@ -1,8 +1,5 @@
-# Copyright (c) 2025 The ZMK Contributors
-# SPDX-License-Identifier: MIT
-
 config SHIELD_SPLITORTHO_LEFT
-    def_bool $(shields_list_contains,splitortho_left)
+    def_bool $(shields_list_contains,splitOrtho_left)
 
 config SHIELD_SPLITORTHO_RIGHT
-    def_bool $(shields_list_contains,splitortho_right)
+    def_bool $(shields_list_contains,splitOrtho_right)
