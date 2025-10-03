@@ -5,3 +5,7 @@
  */
 
 #include "splitOrtho.dtsi"
+
+&default_transform {
+	// Add any left-side specific properties here if needed
+};
