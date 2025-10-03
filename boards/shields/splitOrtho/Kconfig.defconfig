@@ -1,6 +1,6 @@
 if SHIELD_SPLITORTHO_LEFT
 
-config ZMK_KEYBOARD_NAME
+config ZMK_SPLITORTHO
     default "SplitOrtho"
 
 config ZMK_SPLIT_ROLE_CENTRAL
