@@ -17,16 +17,16 @@ kscan0:
     kscan0
     {
         compatible = "zmk,kscan-gpio-matrix";
-        diode - direction = "col2row";
-        wakeup - source;
+        diode-direction = "col2row";
+        wakeup-source;
 
-        row - gpios = <&pro_micro 5(GPIO_ACTIVE | GPIO_PULL_DOWN)> // P0.24
+        row-gpios = <&pro_micro 5(GPIO_ACTIVE | GPIO_PULL_DOWN)>   // P0.24
             , <&pro_micro 21(GPIO_ACTIVE | GPIO_PULL_DOWN)>        // P0.31
             , <&pro_micro 20(GPIO_ACTIVE | GPIO_PULL_DOWN)>        // P0.29
             , <&pro_micro 19(GPIO_ACTIVE | GPIO_PULL_DOWN)>        // P0.02
             ;
 
-        col - gpios = <&pro_micro 2(GPIO_ACTIVE | GPIO_PULL_DOWN)> // P0.17
+        col-gpios = <&pro_micro 2(GPIO_ACTIVE | GPIO_PULL_DOWN)> // P0.17
             , <&pro_micro 7(GPIO_ACTIVE | GPIO_PULL_DOWN)>         // P0.11
             , <&pro_micro 9(GPIO_ACTIVE | GPIO_PULL_DOWN)>         // P1.06
             , <&pro_micro 10(GPIO_ACTIVE | GPIO_PULL_DOWN)>        // P0.09
