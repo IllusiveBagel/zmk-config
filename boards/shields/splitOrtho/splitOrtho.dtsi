@@ -12,7 +12,7 @@
         zmk,physical-layout = &splitOrtho_layout;
     };
     
-    default_transform: keymap_transform0 {
+    default_transform: keymap_transform_0 {
         compatible = "zmk,matrix_transform";
         status= "okay";
         columns = <12>;
