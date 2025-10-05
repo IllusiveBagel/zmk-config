@@ -1,0 +1,16 @@
+if SHIELD_PLEBSPLIT_LEFT
+
+config ZMK_PLEBSPLIT
+    default "plebsplit"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PLEBSPLIT_LEFT || SHIELD_PLEBSPLIT_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

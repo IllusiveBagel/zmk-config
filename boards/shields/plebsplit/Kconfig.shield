@@ -1,0 +1,5 @@
+config SHIELD_PLEBSPLIT_LEFT
+    def_bool $(shields_list_contains,plebsplit_left)
+
+config SHIELD_PLEBSPLIT_RIGHT
+    def_bool $(shields_list_contains,plebsplit_right)
