@@ -1,6 +1,6 @@
 if SHIELD_PLEBSPLIT_LEFT
 
-config ZMK_PLEBSPLIT
+config ZMK_KEYBOARD_NAME
     default "plebsplit"
 
 config ZMK_SPLIT_ROLE_CENTRAL
