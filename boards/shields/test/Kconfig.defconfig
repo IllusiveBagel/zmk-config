@@ -1,7 +1,0 @@
-if SHIELD_TEST
-
-# Name must be less than 16 characters long!
-config ZMK_TEST
-    default "Test"
-
-endif

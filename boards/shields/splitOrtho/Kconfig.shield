@@ -1,5 +1,0 @@
-config SHIELD_SPLITORTHO_LEFT
-    def_bool $(shields_list_contains,splitOrtho_left)
-
-config SHIELD_SPLITORTHO_RIGHT
-    def_bool $(shields_list_contains,splitOrtho_right)
