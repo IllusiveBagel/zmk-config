@@ -1,0 +1,14 @@
+file_format: "1"
+id: plebsplit
+name: Plebsplit
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+features:
+  - keys
+  - display
+  - underglow
+  - studio
+siblings:
+  - plebsplit_left
+  - plebsplit_right
