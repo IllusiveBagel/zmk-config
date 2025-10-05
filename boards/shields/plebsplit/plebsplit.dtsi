@@ -43,12 +43,12 @@
         ;
 
         col-gpios 
-        = <&pro_micro 2 GPIO_ACTIVE_HIGH>   // P0.17
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH>   // P0.11
-        , <&pro_micro 9 GPIO_ACTIVE_HIGH>   // P1.06
-        , <&pro_micro 10 GPIO_ACTIVE_HIGH>  // P0.09
+        = <&pro_micro 14 GPIO_ACTIVE_HIGH>  // P1.11
         , <&pro_micro 16 GPIO_ACTIVE_HIGH>  // P0.10
-        , <&pro_micro 14 GPIO_ACTIVE_HIGH>  // P1.11
+        , <&pro_micro 10 GPIO_ACTIVE_HIGH>  // P0.09
+        , <&pro_micro 9 GPIO_ACTIVE_HIGH>   // P1.06
+        , <&pro_micro 7 GPIO_ACTIVE_HIGH>   // P0.11
+        , <&pro_micro 2 GPIO_ACTIVE_HIGH>   // P0.17
         ;
     };
 };
